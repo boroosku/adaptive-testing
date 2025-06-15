@@ -2,7 +2,6 @@ import streamlit as st
 import time
 
 st.set_page_config(page_title="Адаптивный тестирование", layout="centered")
-st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Logo_dvfu.png/800px-Logo_dvfu.png", width=200)
 st.title("Адаптивное тестирование по ОАиП")
 
 # --- Данные вопросов ---
