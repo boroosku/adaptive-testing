@@ -128,7 +128,8 @@ def show_question(q):
 
     with col1:
         st.markdown(f"### Тема: {q['topic']} | Уровень: {q['level']}")
-
+        st.write(q["question"])
+    
     with col2:
         elapsed = int(time.time() - st.session_state.start_time)
         minutes, seconds = divmod(elapsed, 60)
